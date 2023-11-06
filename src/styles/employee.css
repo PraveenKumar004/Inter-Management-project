@@ -1,3 +1,4 @@
+
 .body {
     display: flex;
 }
@@ -14,10 +15,10 @@
     font-weight: bold;
 }
 .search{
-
     margin-left: 29em;
+    margin-top: 0.8em;
     border-style: solid;
-    border-color: #CFCFCF;
+    border-color: #cfcfcfdf;
     border-radius: 20px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -37,7 +38,31 @@
 .content{
     position: fixed;
     margin-top: 24vh;
-    margin-left: 29vh;
-    border: 2px solid ;
-    
-}  
+    margin-left: 28.3vh;
+}
+.ttitle{
+    padding-left: 7em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #545454;
+    font-size: 20px;
+    color: #545454;
+    border-right:none ;
+    border-left: none;
+}
+.tcontent{
+    border-bottom: 1px solid #545454;
+    padding-top: 1.4vh;
+    padding-bottom: 1.4vh;
+}
+.tcontent:hover{
+    background-color: #F1F1F1;
+}
+th{
+    padding-left: 4.6vw;
+    padding-right: 5.3vw;
+}
+td{
+    padding-left: 4vw;
+    padding-right: 5.3vw;
+}

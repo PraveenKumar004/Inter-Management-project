@@ -23,10 +23,11 @@ h1 {
 .Sidenav {
     height: 100%;
     position: fixed;
-    width: 200px;
+    width: 210px;
     margin-top: 65.5px;
     padding-top: 10px;
     background-color: #EF8F0E;
+    z-index: 1;
 }
 
 .link  {
