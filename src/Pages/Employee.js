@@ -10,7 +10,7 @@ const Employee = () => {
             <NavBar />
             <div className='main'>
                 <h className="title">Employee</h>
-                <input className='search' type='text' id="myinput" onkeyup="myfunction()" placeholder='  Search Name' ></input>
+                <input class="" type='text' id="myinput" onkeyup="myfunction()" placeholder='  Search Name' ></input>
                 <h className="filter"><span className='icon'>Filter </span><VscListFilter/></h>
             </div>
             <div className='content'>
