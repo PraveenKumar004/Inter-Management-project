@@ -21,12 +21,6 @@ const NavBar = () => {
                         <NavLink to="/viewattendance" className="linkopt">View Attendance</NavLink>
                     </div>
                 )}
-
-                    <div>
-                        <NavLink to="/markattendance" className="linkopt">Mark Attendance</NavLink>
-                        <NavLink to="/viewattendance" className="linkopt">View Attendance</NavLink>
-                    </div>
-                
                 <NavLink to="/reports" className="link">Reports</NavLink>
 
             </div>
