@@ -1,0 +1,64 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Topnav {
+    width: 100%;
+    background-color: #312D2B;
+    padding: 14px 16px;
+
+}
+
+h1 {
+    color: #FFFFFF;
+    margin-left: 1vw;
+}
+
+.pro {
+    color: #EF8F0E;
+}
+
+.Sidenav {
+    height: 100%;
+    position: fixed;
+    width: 200px;
+    margin-top: 65.5px;
+    padding-top: 10px;
+    background-color: #EF8F0E;
+}
+
+.link  {
+    padding: 8px 9px 8px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+.linkopt {
+    padding: 8px 9px 8px 20px;
+    text-decoration: none;
+    font-size: 21px;
+    color: #FFFFFF;
+    display: block;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+.active{
+    background-color: #312D2B;
+    border-left-style: solid;
+    border-left-color: #FFFFFF;
+    border-left-width: 5px;
+}

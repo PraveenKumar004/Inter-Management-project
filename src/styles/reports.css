@@ -1,0 +1,9 @@
+.body {
+    display: flex;
+}
+
+.main {
+    position: fixed;
+    margin-top: 14vh;
+    margin-left: 34vh;
+}

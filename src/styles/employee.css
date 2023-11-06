@@ -1,0 +1,44 @@
+.body {
+    display: flex;
+}
+
+.main {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+}
+.title{
+    font-size: 25px;
+    color: #545454;
+    font-weight: bold;
+}
+.search{
+
+    margin-left: 29em;
+    border-style: solid;
+    border-color: #CFCFCF;
+    border-radius: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+.filter{
+    padding: 8px;
+    margin-left: 25em;
+}
+.filter:hover{
+    background-color: #f8f1f1;
+    border-radius: 15px;
+}
+.icon{
+    padding-bottom: 10px;
+}
+.content{
+    position: fixed;
+    margin-top: 24vh;
+    margin-left: 29vh;
+    border: 2px solid ;
+    
+}
+
