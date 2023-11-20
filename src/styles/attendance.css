@@ -1,9 +1,94 @@
-.body {
-    display: flex;
+.main_m {
+  position: sticky;
 }
 
-.main {
-    position: fixed;
-    margin-top: 14vh;
-    margin-left: 34vh;
+.calendar_m h1 {
+  margin-left: 150px;
+  color: black;
+  margin-top: 200px;
+  position: relative;
+  bottom: 10px;
+}
+.calendar_m {
+  margin-top: 100px;
+  margin-left: 333px;
+}
+.calendar_m Select {
+  margin-left: 10px;
+}
+.calendar_m select {
+  margin-left: 380px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+#domain_m {
+  margin-left: 400px;
+  color: white;
+  background-color: orange;
+  text-align: center;
+  padding: 5px;
+  border: none;
+  border-color: #f1f1f1;
+
+  border-radius: 7px;
+}
+.mark_m h3 {
+  color: black;
+  font-size: 40px;
+  margin-left: 700px;
+  position: relative;
+  bottom: 50px;
+  left: 70px;
+}
+.mark_m button {
+  color: white;
+  background-color: orange;
+  border: none;
+  padding: 10px 55px;
+  border-radius: 10px;
+  margin-left: 1075px;
+  margin-top: 20px;
+}
+
+.table-header_m,
+.table-data_m {
+  padding: 15px;
+}
+
+.table_m {
+  border-collapse: collapse;
+
+  border: 1px solid #d2d6dc;
+  width: 72%; /* Use percentage to make it responsive */
+  text-align: center;
+  margin-left: 18%; /* Remove the fixed margin */
+}
+
+/* Remove fixed height for the table */
+.table-container_m {
+  display: flex;
+  margin-top: 24px;
+  margin-left: 100px;
+}
+
+.table-header_m {
+  border: 1px solid #e2e8f0; /* Equivalent to Tailwind's border-slate-300 */
+  border-color: #f1f1f1;
+  border-width: 3px;
+}
+
+.table-data_m {
+  border: 1px solid #e2e8f0; /* Equivalent to Tailwind's border-slate-300 */
+  border-color: #f1f1f1;
+  border-width: 3px;
+}
+
+.present_m {
+  color: green;
+}
+.absent_m {
+  color: red;
 }
