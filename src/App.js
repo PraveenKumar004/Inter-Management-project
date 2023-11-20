@@ -5,6 +5,8 @@ import Employee from "./Pages/Employee"
 import Markattendance from "./Pages/Markattendance"
 import Viewattendance from "./Pages/Viewattendance"
 import Reports from "./Pages/Reports"
+import View from "./Pages/view"
+import Add from "./Pages/add"
 function App() {
   return (
     <>
@@ -15,6 +17,8 @@ function App() {
           <Route path="/markattendance" element={<Markattendance />} />
           <Route path="/viewattendance" element={<Viewattendance />} />
           <Route path="/reports" element={<Reports />} />
+          <Route path="/viewemployee" element={<View />} />
+          <Route path="/addemployee" element={<Add />} />
         </Routes>
       </BrowserRouter>
     </>

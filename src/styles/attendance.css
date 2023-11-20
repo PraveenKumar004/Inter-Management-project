@@ -1,9 +1,78 @@
 .body {
     display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.tmark{
+  margin-top: 18vh;
+  margin-left: 25.5vh;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+    color: black;
 }
 
 .main {
-    position: fixed;
-    margin-top: 14vh;
-    margin-left: 34vh;
+  width: 80%;
+  height: 80%;
+  margin-top: 14vh;
+  margin-left: 32vh;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
 }
+
+.Select:hover .ant-select-selection-item {
+    background: #ef8f0e;
+}
+
+.date-picker:hover .ant-picker-cell-in-view {
+    background: #ef8f0e;
+}
+
+#domain {
+    margin-left: 81.5%;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #daa00f;
+    padding: 5px;
+    border: none;
+    border-color: #f1f1f1;
+    box-decoration-break: none;
+    border-radius: 6px;
+
+}
+
+#domain:active {
+    border: none;
+}
+.content_m{
+    margin-top: 32.5vh;
+    margin-left: 25.5vh;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+  .table {
+    border-collapse: collapse;
+    border: 1px solid #d2d6dc; 
+    text-align: center;
+  }
+  
+  
+  .table-header {
+    border: 1px solid #e2e8f0; /* Equivalent to Tailwind's border-slate-300 */
+    border-color: #f1f1f1;
+    border-width: 3px;
+  }
+ 
+  
+  .table-data {
+    border: 1px solid #e2e8f0; /* Equivalent to Tailwind's border-slate-300 */
+    border-color: #f1f1f1;
+    border-width: 3px;
+  }

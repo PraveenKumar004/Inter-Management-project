@@ -1,5 +1,5 @@
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -8,7 +8,8 @@
     width: 100%;
     background-color: #312D2B;
     padding: 14px 16px;
-
+    position: fixed;
+    z-index: 2;
 }
 
 h1 {
@@ -23,14 +24,14 @@ h1 {
 .Sidenav {
     height: 100%;
     position: fixed;
-    width: 210px;
+    width: 212px;
     margin-top: 65.5px;
     padding-top: 10px;
     background-color: #EF8F0E;
     z-index: 1;
 }
 
-.link  {
+.link {
     padding: 8px 9px 8px 20px;
     text-decoration: none;
     font-size: 25px;
@@ -57,7 +58,8 @@ h1 {
     outline: none;
     font-weight: bold;
 }
-.active{
+
+.active {
     background-color: #312D2B;
     border-left-style: solid;
     border-left-color: #FFFFFF;

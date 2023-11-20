@@ -1,0 +1,155 @@
+.add_main_adds {
+  width: 80%;
+  height: 80%;
+  padding-top: 100px;
+  margin-left: 16%;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.add_upload {
+  margin-top: 2vh;
+  background-color: #ef8f0e;
+  border: none;
+  color: #ffffff;
+  font-size: medium;
+  font-weight: 500;
+  padding: 5px;
+  cursor: pointer;
+  width: 35%;
+}
+
+.add_profile_heads {
+  width: 80%;
+  height: 100%;
+  margin-top: 2vh;
+  margin-left: 16%;
+  display: flex;
+}
+
+.add_profile_foot {
+  width: 80%;
+  height: 100%;
+  margin-top: 1vh;
+  margin-left: 16%;
+  display: flex;
+  justify-content: end;
+}
+
+.add_view_hs {
+  font-size: larger;
+  color: #545454;
+  font-weight: bold;
+}
+
+.add_view_imgs {
+  width: 20%;
+  background-color: #ffffff;
+  border: 2px solid #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 1vw;
+}
+
+.add_profile_imgs {
+  width: 20vh;
+  height: 20vh;
+}
+
+.add_personal_infos {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  background-color: #ffffff;
+  border: 2px solid #f1f1f1;
+  margin-left: 1vw;
+}
+
+.add_first_subs {
+  margin: 1vh;
+  width: 50%;
+  display: inline-table;
+}
+
+.add_alignments {
+  width: 90%;
+  margin: 2vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add_lables {
+  font-weight: bold;
+  font-size: 15px;
+  color: #545454;
+}
+
+.add_view_ps {
+  width: 65%;
+  min-height: 25px;
+  font-weight: 600;
+  background-color: #F1F1F1;
+  border: 0.5px solid #CFCFCF;
+  margin-left: 2vh;
+  padding-left: 2.5px;
+}
+
+.add_view_ps_bot {
+  width: 100%;
+  min-height: 25px;
+  font-weight: 600;
+  background-color: #F1F1F1;
+  border: 0.5px solid #CFCFCF;
+  padding-left: 2.5px;
+
+}
+
+.add_second_subs {
+  margin: 1vh;
+  width: 100%;
+  height: 100%;
+  display: inline-table;
+}
+
+.add_view_seconds {
+  width: 60%;
+  font-weight: 600;
+  border: 2px solid #f1f1f1;
+  margin-left: 2vh;
+}
+
+.add_upload_button {
+  width: 62.5%;
+  padding-top: 1.5px;
+  padding-bottom: 2px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #EF8F0E;
+}
+.add_save_btn{
+  width: 7.5%;
+  margin-left: 2vh;
+  font-weight: bold;
+  font-size: large;
+  color: #FFFFFF;
+  padding: 5px;
+  background-color: #EF8F0E;
+  border: none;
+}
+.add_cancel_btn{
+  width: 7.5%;
+  font-weight: bold;
+  font-size: large;
+  color: rgb(12, 12, 12);
+  padding: 5px;
+  background-color: #CFCFCF;
+  border: none;
+}
+.add_input_but{
+  display: none;
+}
