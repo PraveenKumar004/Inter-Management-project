@@ -1,0 +1,75 @@
+table{
+    margin-top: 100px;
+}
+.month{
+    font-size:25px;
+    color: orange;
+}
+.box-container{
+    /* background-color: red; */
+    width: 150vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top:70px;
+}
+.container-box{
+    height:150px;
+    width: 250px;
+    border: 3px solid rgba(128, 128, 128, 0.619);
+    border-left: none;
+    display: flex;
+}
+.line{
+    height: 100%;
+    width: 5%;
+    background-color: orange;
+}
+.text{
+    background-color: white;
+    width:200%;
+    font-size:large;
+    font-weight: bold;
+    /* color: orange; */
+    text-align: center;
+    margin: 30px;
+}
+.number{
+    margin-top: 25px;
+    font-size: larger;
+}
+#Month{
+    font-size: large;  
+    background-color: orange;  
+}
+.border{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.table{
+    border-collapse: collapse;
+    width: 800px;
+}
+.border-th{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+.border td{
+    padding: 10px;
+}
+.download{
+    width: 1100px;
+    display: flex;
+    justify-content: end;
+}
+.download button{
+    font-size: larger;
+    padding: 10px;
+}
+.present{
+    font-size:25px;
+}
+.number{
+    font-size:20px;
+}
